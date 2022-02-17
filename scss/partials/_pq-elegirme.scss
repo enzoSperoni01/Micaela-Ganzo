@@ -1,0 +1,40 @@
+.eleccion {
+    padding: 3rem;
+    h2 {
+        text-align: center;
+        font-size: 3.5rem;
+        color: #4500A6;
+        margin: 1.5rem 0 5rem 0;
+    }
+
+    &__cards {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+
+        grid-auto-flow: column;
+        
+        &__item {
+            margin: 0 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .card-svg {
+                background-color: #4500A6;
+                border-radius: 50%;
+                padding: .8rem;
+            }
+
+            h3 {
+                font-size: 2.7rem;
+            }
+
+            p {
+                font-size: 1.7rem;
+                text-align: center;
+            }
+        }
+    }
+}

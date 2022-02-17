@@ -46,3 +46,31 @@ html {
             background-color: #313653; }
         .navbar .div__list__item a:hover {
           color: #45ABB5; }
+
+.eleccion {
+  padding: 3rem; }
+  .eleccion h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #4500A6;
+    margin: 1.5rem 0 5rem 0; }
+  .eleccion__cards {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column; }
+    .eleccion__cards__item {
+      margin: 0 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      .eleccion__cards__item .card-svg {
+        background-color: #4500A6;
+        border-radius: 50%;
+        padding: .8rem; }
+      .eleccion__cards__item h3 {
+        font-size: 2.7rem; }
+      .eleccion__cards__item p {
+        font-size: 1.7rem;
+        text-align: center; }
