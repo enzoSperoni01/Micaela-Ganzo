@@ -1,6 +1,8 @@
 .eleccion {
     padding: 3rem;
     h2 {
+        font-family: $font-primary;
+        font-size: 700;
         text-align: center;
         font-size: 3.5rem;
         color: #4500A6;
@@ -8,6 +10,7 @@
     }
 
     &__cards {
+        margin: 7rem 0;
         display: grid;
         justify-content: center;
         align-content: center;
@@ -24,17 +27,41 @@
             .card-svg {
                 background-color: #4500A6;
                 border-radius: 50%;
-                padding: .8rem;
+                padding: 1.7rem;
             }
 
             h3 {
+                margin: 1.6rem 0;
                 font-size: 2.7rem;
+                font-weight: 700;
+                color: #313653;
             }
 
             p {
                 font-size: 1.7rem;
+                font-weight: 400;
                 text-align: center;
             }
+        }
+    }
+
+    &__prueba {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        margin: 5rem 0;
+        p {
+            border-radius: 1.5rem;
+            background-color: #4500A6;
+            color: #fff;
+            width: fit-content;
+            padding: 3rem;
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        p:hover {
+            background-color: #313653;
         }
     }
 }
