@@ -33,7 +33,7 @@ html {
         .navbar .div__list__item a {
           font-size: 1.7rem;
           text-decoration: none;
-          color: #000;
+          color: #313653;
           transition: all 220ms; }
           .navbar .div__list__item a button {
             cursor: pointer;
@@ -82,7 +82,8 @@ html {
       .eleccion__cards__item p {
         font-size: 1.7rem;
         font-weight: 400;
-        text-align: center; }
+        text-align: center;
+        color: #313653; }
   .eleccion__prueba {
     display: flex;
     justify-content: center;
@@ -99,3 +100,22 @@ html {
       letter-spacing: 1px; }
     .eleccion__prueba p:hover {
       background-color: #313653; }
+
+.ayuda {
+  background-color: #D7DEFF;
+  padding: .5rem 3rem; }
+  .ayuda__first {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 6rem; }
+    .ayuda__first__text h2 {
+      font-family: "Playfair Display", serif;
+      color: #4500A6;
+      font-size: 4.2rem;
+      margin-bottom: 2rem; }
+    .ayuda__first__text p {
+      font-size: 2.2rem;
+      color: #313653; }
+    .ayuda__first svg {
+      width: 40%; }
