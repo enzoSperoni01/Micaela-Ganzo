@@ -9,8 +9,8 @@ html {
   font-family: Helvetica, sans-serif; }
 
 .navbar {
+  background-color: #fff;
   position: sticky;
-  z-index: 100;
   top: 0px;
   left: 0px;
   width: 100%;
