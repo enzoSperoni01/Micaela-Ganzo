@@ -103,7 +103,7 @@ html {
 
 .ayuda {
   background-color: #D7DEFF;
-  padding: .5rem 3rem; }
+  padding: .5rem 6rem; }
   .ayuda__first {
     display: flex;
     align-items: center;
@@ -116,6 +116,62 @@ html {
       margin-bottom: 2rem; }
     .ayuda__first__text p {
       font-size: 2.2rem;
+      line-height: 1.5;
       color: #313653; }
     .ayuda__first svg {
       width: 40%; }
+  .ayuda__cards {
+    padding: 2rem 10rem;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 2rem;
+    grid-auto-flow: column; }
+    .ayuda__cards__card {
+      overflow: hidden;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background-color: #4500A6;
+      border-radius: 2rem;
+      color: #FFF; }
+      .ayuda__cards__card img {
+        width: 100%; }
+      .ayuda__cards__card .info {
+        height: 45rem;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .ayuda__cards__card .info .text {
+          width: 100%;
+          margin: 0 1rem; }
+          .ayuda__cards__card .info .text h3 {
+            font-size: 2.8rem;
+            margin-bottom: 2rem; }
+          .ayuda__cards__card .info .text p {
+            font-size: 1.7rem;
+            line-height: 1.5; }
+        .ayuda__cards__card .info .center-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          .ayuda__cards__card .info .center-btn a {
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            font-size: 1.6rem; }
+            .ayuda__cards__card .info .center-btn a button {
+              cursor: pointer;
+              width: 25rem;
+              font-weight: bold;
+              border: none;
+              padding: 1.5rem 3.6rem;
+              color: #4500A6;
+              background-color: #FFF;
+              border-radius: 2rem;
+              transition: all 250ms; }
+            .ayuda__cards__card .info .center-btn a button:hover {
+              background-color: #313653;
+              color: #FFF; }
