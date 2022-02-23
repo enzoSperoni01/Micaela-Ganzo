@@ -189,6 +189,11 @@ html {
     margin: 1rem 0;
     list-style: none;
     font-size: 1.4rem; }
+    .footer__section ul li a {
+      color: #fff;
+      text-decoration: none; }
+    .footer__section ul li a:hover {
+      text-decoration: underline; }
   .footer__section__logos {
     margin: 1rem 0;
     display: flex; }
