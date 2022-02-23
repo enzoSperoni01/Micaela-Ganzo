@@ -36,4 +36,23 @@
             }
         }
     }
+    .ayuda {
+        padding: 2rem;
+        &__first {
+            margin: 1rem;
+            &__text {
+                h2 {
+                    text-align: center;
+                    font-size: 3.4rem;
+                }
+                p {
+                    text-align: center;
+                    font-size: 2rem;
+                }
+            }
+            svg {
+                display: none;
+            }
+        }
+    }
 }

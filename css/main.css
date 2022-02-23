@@ -243,4 +243,16 @@ html {
     margin: 3rem 0; }
     .eleccion__prueba p {
       padding: 2.5rem;
-      font-size: 1.8rem; } }
+      font-size: 1.8rem; }
+  .ayuda {
+    padding: 2rem; }
+    .ayuda__first {
+      margin: 1rem; }
+      .ayuda__first__text h2 {
+        text-align: center;
+        font-size: 3.4rem; }
+      .ayuda__first__text p {
+        text-align: center;
+        font-size: 2rem; }
+      .ayuda__first svg {
+        display: none; } }
