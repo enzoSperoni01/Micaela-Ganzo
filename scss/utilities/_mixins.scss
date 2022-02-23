@@ -1,0 +1,5 @@
+@mixin mobile { // Telefono
+    @media screen and (min-width: 320px) {
+        @content;
+    }
+}

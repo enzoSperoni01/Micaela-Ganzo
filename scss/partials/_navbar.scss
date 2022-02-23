@@ -16,6 +16,9 @@
 
     .div {
         margin: .5rem 0;
+        ul {
+            margin-bottom: 0;
+        }
         &__list {
             display: flex;
             align-items: center;
