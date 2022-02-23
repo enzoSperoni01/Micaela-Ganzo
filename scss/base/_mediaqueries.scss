@@ -1,3 +1,39 @@
 @include mobile {
-    
+    .desaparecer {
+        display: none;
+    }
+    .eleccion {
+        h2 {
+            font-size: 3.4rem;
+            line-height: 1.4;
+        }
+        &__cards {
+            margin: 4rem 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &__item {
+                margin: 1.5rem 0;
+
+                h3 {
+                    margin: 1rem 0;
+                    font-size: 2.3rem;
+                }
+
+                p {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+        &__prueba {
+            text-align: center;
+            margin: 3rem 0;
+            p {
+                padding: 2.5rem;
+                font-size: 1.8rem;
+            }
+        }
+    }
 }

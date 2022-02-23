@@ -218,3 +218,29 @@ html {
     align-items: center; }
     .footer .section-3 ul li span {
       margin: 0 1rem; }
+
+@media screen and (max-width: 768px) {
+  .desaparecer {
+    display: none; }
+  .eleccion h2 {
+    font-size: 3.4rem;
+    line-height: 1.4; }
+  .eleccion__cards {
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .eleccion__cards__item {
+      margin: 1.5rem 0; }
+      .eleccion__cards__item h3 {
+        margin: 1rem 0;
+        font-size: 2.3rem; }
+      .eleccion__cards__item p {
+        font-size: 1.6rem; }
+  .eleccion__prueba {
+    text-align: center;
+    margin: 3rem 0; }
+    .eleccion__prueba p {
+      padding: 2.5rem;
+      font-size: 1.8rem; } }
