@@ -54,5 +54,47 @@
                 display: none;
             }
         }
+        &__cards {
+            margin-top: 3rem;
+            padding: 0 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            &__card {
+                border-radius: 1.5rem;
+
+                .info {
+                    .text {
+                        margin: 0;
+                        text-align: center;
+                        h3 {
+                            font-size: 2.5rem;
+                            margin-bottom: 3rem;
+                        }
+
+                        p {
+                            font-size: 1.5rem;
+                            line-height: 1.5;
+                        }
+                    }
+
+                    .center-btn {
+                        a {
+                            font-size: 1.5rem;
+                            button {
+                                width: 21.5rem;
+                                padding: 1.5rem;
+
+                                transition: all 200ms;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        display: none;
     }
 }

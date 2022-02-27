@@ -255,4 +255,30 @@ html {
         text-align: center;
         font-size: 2rem; }
       .ayuda__first svg {
-        display: none; } }
+        display: none; }
+    .ayuda__cards {
+      margin-top: 3rem;
+      padding: 0 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .ayuda__cards__card {
+        border-radius: 1.5rem; }
+        .ayuda__cards__card .info .text {
+          margin: 0;
+          text-align: center; }
+          .ayuda__cards__card .info .text h3 {
+            font-size: 2.5rem;
+            margin-bottom: 3rem; }
+          .ayuda__cards__card .info .text p {
+            font-size: 1.5rem;
+            line-height: 1.5; }
+        .ayuda__cards__card .info .center-btn a {
+          font-size: 1.5rem; }
+          .ayuda__cards__card .info .center-btn a button {
+            width: 21.5rem;
+            padding: 1.5rem;
+            transition: all 200ms; }
+  .footer {
+    display: none; } }
