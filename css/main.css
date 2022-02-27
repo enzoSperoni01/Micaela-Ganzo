@@ -281,4 +281,27 @@ html {
             padding: 1.5rem;
             transition: all 200ms; }
   .footer {
-    display: none; } }
+    display: flex;
+    flex-direction: column;
+    padding: 2rem; }
+    .footer .section-1 {
+      text-align: center; }
+      .footer .section-1 p {
+        font-size: 1.7rem; }
+    .footer__section {
+      margin: 1.2rem 0;
+      text-align: center; }
+      .footer__section h3 {
+        font-size: 2.4rem; }
+      .footer__section ul {
+        font-size: 1.5rem; }
+      .footer__section__logos {
+        margin: 2rem 0;
+        justify-content: center; }
+    .footer .section-3 ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .footer .section-3 ul li {
+        margin: .8rem 0; } }
