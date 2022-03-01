@@ -21,35 +21,33 @@ html {
   box-shadow: 0px -3px 10px 1px rgba(0, 0, 0, 0.75); }
   .navbar .logo-nav {
     width: 15rem; }
-  .navbar .div {
-    margin: .5rem 0; }
-    .navbar .div ul {
-      margin-bottom: 0; }
-    .navbar .div__list {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      list-style: none; }
-      .navbar .div__list__item {
-        margin: 0 2rem; }
-        .navbar .div__list__item a {
+  .navbar ul {
+    margin-bottom: 0; }
+  .navbar .div__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none; }
+    .navbar .div__list__item {
+      margin: 0 2rem; }
+      .navbar .div__list__item a {
+        font-size: 1.7rem;
+        text-decoration: none;
+        color: #313653;
+        transition: all 220ms; }
+        .navbar .div__list__item a button {
+          cursor: pointer;
           font-size: 1.7rem;
-          text-decoration: none;
-          color: #313653;
-          transition: all 220ms; }
-          .navbar .div__list__item a button {
-            cursor: pointer;
-            font-size: 1.7rem;
-            letter-spacing: 1px;
-            background-color: #45ABB5;
-            color: #fff;
-            border: none;
-            border-radius: 3rem;
-            padding: .6rem 3.6rem; }
-          .navbar .div__list__item a button:hover {
-            background-color: #313653; }
-        .navbar .div__list__item a:hover {
-          color: #45ABB5; }
+          letter-spacing: 1px;
+          background-color: #45ABB5;
+          color: #fff;
+          border: none;
+          border-radius: 3rem;
+          padding: .6rem 3.6rem; }
+        .navbar .div__list__item a button:hover {
+          background-color: #313653; }
+      .navbar .div__list__item a:hover {
+        color: #45ABB5; }
 
 .eleccion {
   padding: 3rem; }
