@@ -19,23 +19,26 @@ html {
   align-items: center;
   padding: 1.4rem 22rem;
   box-shadow: 0px -3px 10px 1px rgba(0, 0, 0, 0.75); }
+  .navbar .logo-MG {
+    display: none; }
   .navbar .logo-nav {
     width: 15rem; }
   .navbar ul {
     margin-bottom: 0; }
-  .navbar .div__list {
+  .navbar .div-nav__list {
     display: flex;
     align-items: center;
     justify-content: space-around;
     list-style: none; }
-    .navbar .div__list__item {
+    .navbar .div-nav__list__item {
       margin: 0 2rem; }
-      .navbar .div__list__item a {
+      .navbar .div-nav__list__item a {
+        display: block;
         font-size: 1.7rem;
         text-decoration: none;
         color: #313653;
         transition: all 220ms; }
-        .navbar .div__list__item a button {
+        .navbar .div-nav__list__item a button {
           cursor: pointer;
           font-size: 1.7rem;
           letter-spacing: 1px;
@@ -44,10 +47,25 @@ html {
           border: none;
           border-radius: 3rem;
           padding: .6rem 3.6rem; }
-        .navbar .div__list__item a button:hover {
+        .navbar .div-nav__list__item a button:hover {
           background-color: #313653; }
-      .navbar .div__list__item a:hover {
+      .navbar .div-nav__list__item a:hover {
         color: #45ABB5; }
+
+.toggle-btn {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px; }
+  .toggle-btn .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #313653;
+    border-radius: 5rem; }
 
 .eleccion {
   padding: 3rem; }
@@ -218,8 +236,32 @@ html {
       margin: 0 1rem; }
 
 @media screen and (max-width: 768px) {
-  .desaparecer {
-    display: none; }
+  .navbar {
+    padding: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; }
+    .navbar .logo-nav {
+      display: none; }
+    .navbar .logo-MG {
+      display: block;
+      padding-left: 1.5rem; }
+    .navbar .div-nav {
+      display: none;
+      width: 100%; }
+      .navbar .div-nav ul {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 2rem; }
+        .navbar .div-nav ul li {
+          text-align: center; }
+          .navbar .div-nav ul li a {
+            padding: 1rem; }
+    .navbar .div-nav.active {
+      display: flex; }
+    .navbar .toggle-btn {
+      display: flex;
+      align-items: center; }
   .eleccion h2 {
     font-size: 3.4rem;
     line-height: 1.4; }
